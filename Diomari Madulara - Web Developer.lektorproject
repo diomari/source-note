@@ -1,2 +1,5 @@
 [project]
 name = Diomari Madulara - Web Developer
+
+[servers.ghpages]
+target = ghpages://diomari/diomari.github.io
