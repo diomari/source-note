@@ -1,5 +1,5 @@
 [project]
-name = Diomari Madulara - Web Developer
+name = Diomari Madulara - Software Developer
 
 [servers.ghpages]
 target = ghpages+https://diomari/diomari.github.io

@@ -1,14 +1,14 @@
 <!doctype html>
 <meta charset="utf-8">
 <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
-<title>{% block title %}Welcome{% endblock %} — Diomari Madulara - Web Developer</title>
+<title>{% block title %}Welcome{% endblock %} — Diomari Madulara</title>
 <body>
   <header>
-    <h1>Diomari Madulara - Web Developer</h1>
+    <h2>Diomari Madulara - Software Developer</h2>
     <nav>
       <ul class="nav navbar-nav">
         <li{% if this._path == '/' %} class="active"{% endif
-          %}><a href="{{ '/'|url }}">Welcome</a></li>
+          %}><a href="{{ '/'|url }}">Home</a></li>
         {% for href, title in [
           ['/blog', 'Blog'],
           ['/projects', 'Projects'],
