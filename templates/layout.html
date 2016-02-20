@@ -4,13 +4,13 @@
 <title>{% block title %}Welcome{% endblock %} — Diomari Madulara</title>
 <body>
   <header>
-    <h2>Diomari Madulara - Software Developer</h2>
+    <h2>Diomari Madulara - Web Developer</h2>
     <nav>
       <ul class="nav navbar-nav">
         <li{% if this._path == '/' %} class="active"{% endif
           %}><a href="{{ '/'|url }}">Home</a></li>
         {% for href, title in [
-          ['/blog', 'Blog'],
+          ['/blog', 'Articles'],
           ['/projects', 'Projects'],
           ['/about', 'About']
         ] %}
@@ -24,6 +24,6 @@
     {% block body %}{% endblock %}
   </div>
   <footer>
-    &copy; Copyright 2016 by Diomari Madulara.
+    <!-- &copy; Copyright 2016 by Diomari Madulara. -->
   </footer>
 </body>

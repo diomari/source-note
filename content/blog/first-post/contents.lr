@@ -1,4 +1,4 @@
-title: Hello Website
+title: Hello World
 ---
 pub_date: 2016-02-20
 ---
@@ -6,9 +6,6 @@ author: Diomari Madulara
 ---
 body:
 
-This is an example blog post.  Not much here but that's not the point :)
-
-Another lorem ipsum post
-Sample Template
+Hello World.
 ---
 twitter_handle: diomri
