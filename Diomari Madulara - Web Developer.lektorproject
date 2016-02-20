@@ -2,4 +2,4 @@
 name = Diomari Madulara - Web Developer
 
 [servers.ghpages]
-target = ghpages://diomari/diomari.github.io
+target = ghpages+https://diomari/diomari.github.io
