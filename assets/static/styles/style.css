@@ -21,7 +21,7 @@ body {
 /*HEADER*/
 
 header a {
-    color: #2a99b6;
+    color: blue;
     text-decoration: none;
 }
 
@@ -53,4 +53,17 @@ header nav ul li {
 
 header nav ul li a:active {
     color: red;
+}
+
+
+.blog-post .blog-date {
+    font-size: .8em;
+    color: #bbb;
+}
+
+.blog-post .meta {
+    margin-top: .4em;
+    font-style: italic;
+    font-size: .9em;
+    color: #929292;
 }
