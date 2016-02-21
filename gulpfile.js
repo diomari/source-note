@@ -5,7 +5,7 @@ var shell = require('gulp-shell')
 gulp.task('serve', function() {
     browserSync.init({
         proxy: "localhost:5000",
-        reloadDelay: 2400
+        reloadDelay: 1800
     });
 
     gulp.watch("content/**/*.lr").on('change', browserSync.reload);

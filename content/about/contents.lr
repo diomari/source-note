@@ -3,12 +3,12 @@ title: About
 body:
 
 ###Introduction
-I started out as a front-end developer learning the fundamentals of HTML, Javascript and CSS. Years went by I decided to learn more and really understand how things on the web work. I then continued experimenting things with server-side languages. I've tried quite few of them but there's one language that truly struck my heart and that is Python. For me Python alongside with Django hit the right balance between being fun and productive. I highly suggest it to anyone who wants to try a new framework.
+I started out as a front-end developer learning the fundamentals of HTML, Javascript and CSS. Years went by I decided to learn more and really understand how things on the web work. I then continued experimenting things with server-side languages. I've tried quite few of them but there's one language that truly struck my heart and that is Python. For me Python alongside with [Django](https://www.djangoproject.com/) hit the right balance between being fun and productive. I highly suggest it to anyone who wants to try a new framework.
 
 My goal right now is to deepen my knowledge both on backend and frontend development. I'm aware that the road to become a true developer is long and daunting but with the right mindset and perseverance we will eventually get there.
 
 
 ###Why I started this blog
-The primary goal is to make this an archive of the things I've learned doing web development. Hopefully you may find some things helpful. This blog is powered by Lektor a static site generator and its hosted on github. Feel free to drop suggestions, if you want to colaborate or want to keep in touch my email is diom.dev(at)gmail.com
+The primary goal is to make this an archive of the things I've learned doing web development. Hopefully you may find some things helpful. This blog is powered by [Lektor](https://www.getlektor.com/ "Lektor") a static site generator and its hosted on [github](https://www.github.com/diomari). Feel free to drop suggestions, if you want to colaborate or want to keep in touch my email is `diom.dev(at)gmail.com`
 
-Happy Coding :)
+`Happy Coding :)`

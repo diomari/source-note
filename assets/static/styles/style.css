@@ -1,25 +1,42 @@
+/*BASE*/
+
 body {
     background: #fafafa;
     font-family: 'Source Sans Pro', sans-serif;
     margin: 50px 25px;
 }
 
-a {
+.page a {
+    text-transform: capitalize;
+    border-bottom: 2px solid blue;
+    color: #000;
+    outline-color: transparent;
+    text-decoration: none;
+}
+
+.page a:hover {
+    opacity: .5;
+}
+
+/*HEADER*/
+
+header a {
     color: #2a99b6;
+    text-decoration: none;
 }
 
-a:hover {
+header a:hover {
     color: #33bbdf;
-}
-
-h3 {
-    font-weight: 600;
 }
 
 header, footer, div.page {
     width: 760px;
     margin: 0 auto;
     padding: 10px 20px;
+}
+
+header nav {
+    padding-top: 20px;
 }
 
 header nav ul {
@@ -32,4 +49,8 @@ header nav ul li {
     display: inline;
     margin: 0 8px 0 0;
     padding: 0;
+}
+
+header nav ul li a:active {
+    color: red;
 }
