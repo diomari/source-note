@@ -1,10 +1,29 @@
 <!doctype html>
 <meta charset="utf-8">
-<link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+<link rel="stylesheet" href="{{ '/static/styles/normalize.css'|url }}">
+<link rel="stylesheet" href="{{ '/static/styles/typebase.css'|url }}">
+<link rel="stylesheet" href="{{ '/static/styles/style.css'|url }}">
+<link rel="icon" href="{{ '/static/images/favicon.png'|url }}">
 <title>{% block title %}Welcome{% endblock %} — Diomari Madulara</title>
+
+<!-- Get WebFont -->
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Source+Sans+Pro:400,600,700:latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+</script>
+
 <body>
-  <header>
-    <h2>Diomari Madulara - Web Developer</h2>
+  <header class="col-12">
+    <h3>Diomari Madulara - Web Developer</h3>
     <nav>
       <ul class="nav navbar-nav">
         <li{% if this._path == '/' %} class="active"{% endif
@@ -26,4 +45,5 @@
   <footer>
     <!-- &copy; Copyright 2016 by Diomari Madulara. -->
   </footer>
+
 </body>

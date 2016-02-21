@@ -7,5 +7,7 @@
     {{ render_blog_post(child, from_index=true) }}
   {% endfor %}
 
+{% if this.pagination.pages > 8 %}
   {{ render_pagination(this.pagination) }}
+{% endif %}
 {% endblock %}

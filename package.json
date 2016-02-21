@@ -1,0 +1,26 @@
+{
+  "name": "diom-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0",
+    "gulp-shell": "^0.5.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diomari/source-note.git"
+  },
+  "author": "Diomari Madulara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diomari/source-note/issues"
+  },
+  "homepage": "https://github.com/diomari/source-note#readme"
+}
