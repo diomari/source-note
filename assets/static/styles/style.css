@@ -26,7 +26,7 @@ header a {
 }
 
 header a:hover {
-    color: #33bbdf;
+    color: yellow;
 }
 
 header, footer, div.page {
@@ -49,10 +49,6 @@ header nav ul li {
     display: inline;
     margin: 0 8px 0 0;
     padding: 0;
-}
-
-header nav ul li a:active {
-    color: red;
 }
 
 
